@@ -142,6 +142,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 159aef29a5c4a9f41b89cf822ac13341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainThrust: 100
+  rotationThrust: 1
+--- !u!54 &462795889
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462795887}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: -24.11, y: 1, z: -16.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -470,13 +488,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.56
+      value: 4.42
       objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
