@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     Rigidbody rb; //caching rigidbody reference
     [SerializeField] float mainThrust = 100f;
-    [SerializeField] float rotationThrust = 1f;
+    [SerializeField] float rotationThrust = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +42,9 @@ public class Movement : MonoBehaviour
 
     void ApplyRotation(float rotationThisFrame)
     {
+        rb.freezeRotation = true; //freezing physics system rotation so we can manually rotate
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.fixedDeltaTime);
+        rb.freezeRotation = false; //unfreezing physics system rotate
     }
 
 
