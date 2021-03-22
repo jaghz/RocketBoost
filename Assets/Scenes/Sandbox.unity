@@ -534,21 +534,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 462795888, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: rotationThrust
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 462795889, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 462795889, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: m_Mass
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 462795889, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: m_Constraints
-      value: 56
+    - target: {fileID: 1965828480, guid: 9bdda41297b0407429354a47bf560712, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
