@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     Rigidbody rb; //caching rigidbody reference
     AudioSource audioSource; //caching audiosource reference
 
-    [SerializeField] float mainThrust = 100f;
+    [SerializeField] float mainThrust = 50f;
     [SerializeField] float rotationThrust = 10f;
     // Start is called before the first frame update
     void Start()

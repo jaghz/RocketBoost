@@ -7,7 +7,7 @@ public class CollisionHandler : MonoBehaviour
         switch (other.gameObject.tag)
         {
             case "Finish":
-                Debug.Log("Finished level");
+                LoadNextLevel();
                 break;
 
             case "Friendly":
@@ -23,6 +23,18 @@ public class CollisionHandler : MonoBehaviour
                 break;
         }
 
+    }
+
+    void LoadNextLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex +1;
+
+        if (nextSceneIndex == SceneManager.sceneCountInBuildSettings)
+        {
+            nextSceneIndex = 0; // first level has build index of 0
+        }
+        SceneManager.LoadScene(nextSceneIndex);
     }
 
     void ReloadLevel()
