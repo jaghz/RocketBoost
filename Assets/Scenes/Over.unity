@@ -390,24 +390,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.35, y: 0, z: 0}
---- !u!1 &1779999501 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7045856486120597355, guid: 9bdda41297b0407429354a47bf560712,
-    type: 3}
-  m_PrefabInstance: {fileID: 2594754232972503284}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1779999502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1779999501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41fff9437a3597a47ad11657c53bdc72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &904250157772135839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,9 +540,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 462795888, guid: 9bdda41297b0407429354a47bf560712, type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: 806274554461ab744a3190e7e230c7c2, type: 3}
     - target: {fileID: 1965828480, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
@@ -621,11 +607,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rocket
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045856486120597355, guid: 9bdda41297b0407429354a47bf560712,
-        type: 3}
-      propertyPath: m_TagString
-      value: Friendly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bdda41297b0407429354a47bf560712, type: 3}
