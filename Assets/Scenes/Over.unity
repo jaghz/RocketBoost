@@ -540,14 +540,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 462795888, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: mainEngine
-      value: 
-      objectReference: {fileID: 8300000, guid: 806274554461ab744a3190e7e230c7c2, type: 3}
-    - target: {fileID: 1965828480, guid: 9bdda41297b0407429354a47bf560712, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1908221028415619233, guid: 9bdda41297b0407429354a47bf560712,
         type: 3}
       propertyPath: m_RootOrder
@@ -676,11 +668,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Landing Pad
-      objectReference: {fileID: 0}
-    - target: {fileID: 5360615325428812293, guid: 7e22b01cd06485a40a340cee1f4b9dbc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e22b01cd06485a40a340cee1f4b9dbc, type: 3}
