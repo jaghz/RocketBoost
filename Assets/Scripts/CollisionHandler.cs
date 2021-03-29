@@ -13,6 +13,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem crashParticles;
 
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
