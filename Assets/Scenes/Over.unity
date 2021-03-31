@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e054ab97ee3d09849b04ea3dbc55370c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -216,7 +216,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &900027579
 PrefabInstance:
@@ -229,21 +229,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.1042004
-      objectReference: {fileID: 0}
-    - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 9.753568
-      objectReference: {fileID: 0}
-    - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.0685
       objectReference: {fileID: 0}
     - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
@@ -295,11 +280,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 904250156668981207, guid: 8352433f088a205478c7999974f71e14,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6b587833d00935e4282c2cde22a7ee49, type: 2}
     - target: {fileID: 904250156668981209, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
       propertyPath: m_Name
@@ -342,8 +322,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -390,7 +370,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10.35, y: 0, z: 0}
---- !u!1001 &904250157772135839
+--- !u!1001 &1181346304
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -400,17 +380,17 @@ PrefabInstance:
     - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25
+      value: -25.6
       objectReference: {fileID: 0}
     - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.132275
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 904250156668981205, guid: 8352433f088a205478c7999974f71e14,
         type: 3}
@@ -457,11 +437,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad
       objectReference: {fileID: 0}
-    - target: {fileID: 904250156668981209, guid: 8352433f088a205478c7999974f71e14,
-        type: 3}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8352433f088a205478c7999974f71e14, type: 3}
 --- !u!1001 &1374352190669429923
@@ -479,7 +454,7 @@ PrefabInstance:
     - target: {fileID: 1374352190014026451, guid: 3415a0210ce1da9478680b98879ab008,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1374352190014026451, guid: 3415a0210ce1da9478680b98879ab008,
         type: 3}
